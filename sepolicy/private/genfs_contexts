@@ -1,6 +1,9 @@
 # Earpiece Gain
 genfscon sysfs /kernel/sound_control/earpiece_gain                                       u:object_r:sysfs_egain:s0
 
+# FPS info
+genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps       u:object_r:sysfs_graphics:s0
+
 # Headphone Gain
 genfscon sysfs /kernel/sound_control/headphone_gain                                      u:object_r:sysfs_hgain:s0
 
