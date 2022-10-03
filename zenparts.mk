@@ -31,9 +31,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # ZenParts
 PRODUCT_PACKAGES += \
-    ZenParts \
-    XiaomiDirac \
-    Doze
+    ZenParts
 
 # GVisual Mod
 #PRODUCT_PACKAGES += \
